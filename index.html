@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXUS AI - Home</title>
+    <style>
+        /* Modern Dark Tech Theme Styling */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #0f172a;
+            color: #ffffff;
+            font-family: 'Segoe UI', Roboto, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        header {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #94a3b8;
+            font-size: 1.1rem;
+        }
+
+        /* Technical Achievement Container */
+        .achievement-container {
+            text-align: center;
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 25px;
+            background: rgba(30, 41, 59, 0.5);
+            border: 1px solid #3b82f6;
+            border-radius: 16px;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(4px);
+        }
+
+        .achievement-text {
+            font-size: 16px;
+            color: #cbd5e1;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+
+        /* Futuristic Download Button */
+        .nexus-download-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+            color: #ffffff;
+            text-decoration: none;
+            padding: 14px 28px;
+            border-radius: 30px;
+            font-weight: 600;
+            font-size: 16px;
+            box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            cursor: pointer;
+        }
+
+        .nexus-download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(59, 130, 246, 0.6);
+        }
+
+        .dl-icon {
+            width: 20px;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>NEXUS AI</h1>
+        <p class="subtitle">Welcome to the future of AI assistance.</p>
+    </header>
+
+    <!-- Chatbase Embed Section (Your Chat Window goes here) -->
+    <!-- You can paste your Chatbase embed script right here later! -->
+
+    <!-- Technical Achievements / App Download Section -->
+    <div class="achievement-container">
+        <p class="achievement-text">
+            Welcome to my technical achievement! I have successfully compiled the NEXUS AI web interface into a standalone Android application. You can download and install the official mobile app directly onto your phone below.
+        </p>
+        
+        <!-- The Download Button -->
+        <a href="NEXUS_AI.apk" class="nexus-download-btn" download="NEXUS_AI.apk">
+            <svg class="dl-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            <span>Download NEXUS AI APK</span>
+        </a>
+    </div>
+
+</body>
+</html>
